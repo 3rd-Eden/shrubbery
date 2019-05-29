@@ -1,0 +1,36 @@
+{
+  "name": "shrubbery",
+  "version": "1.0.0",
+  "description": "Shrubbery is small Map() backed plugin registry",
+  "main": "index.js",
+  "scripts": {
+    "test:runner": "mocha test.js",
+    "test": "nyc --reporter=text --reporter=json-summary npm run test:runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3rd-Eden/shrubbery.git"
+  },
+  "keywords": [
+    "shrubbery",
+    "plugin",
+    "system",
+    "registry",
+    "map"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3rd-Eden/shrubbery/issues"
+  },
+  "homepage": "https://github.com/3rd-Eden/shrubbery#readme",
+  "dependencies": {
+    "borked": "^1.0.1",
+    "millisecond": "^0.1.2"
+  },
+  "devDependencies": {
+    "assume": "^2.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
+}
